@@ -22,6 +22,7 @@ public class ArchivoLectura {
 
     public ArchivoLectura(String n) {
         nombreArchivo = n;
+        // ruta archivo es igual a data ya qes la direccion donde vamos a enviar los datos //
         rutaArchivo = String.format("data/%s", nombreArchivo);
 
         try {
