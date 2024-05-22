@@ -22,7 +22,8 @@ public class ArchivoEscritura {
     private Formatter salidaArchivo;
 
     public ArchivoEscritura(String n) {
-        nombreArchivo = n;
+        nombreArchivo = n;      
+        // ruta archivo es igual a data ya qes la direccion donde vamos a enviar los datos //
         rutaArchivo = String.format("data/%s", nombreArchivo); // "data/profesores2.txt"
         
     }
